@@ -1,0 +1,6 @@
+a=int(input("enter a value a:"))
+b=int(input("enter a value b:"))
+print("-"*65)
+print("Arthematic operators")
+print("-"*65)
+print("{}+{}={}".formate(a,b,a+b))
