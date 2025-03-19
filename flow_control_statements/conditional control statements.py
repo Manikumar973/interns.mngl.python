@@ -225,3 +225,49 @@ else:
 
 
 #nested if example
+
+
+# Creating a dictionary
+#my_dict = {'apple': 10, 'banana': 20, 'cherry': 30}
+
+# Accessing a value using a key
+#print(my_dict[10])  # Output: 10
+
+# Understanding hashing
+#print(hash('apple'))  # Example hash value (varies in each run)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -375,4 +375,8 @@ for n in a:
 
 
 
-
+'''a=float(input("enter a value:"))
+print(a/100)
+print(a*100)
+print(a+789988)
+print(a-7378)'''

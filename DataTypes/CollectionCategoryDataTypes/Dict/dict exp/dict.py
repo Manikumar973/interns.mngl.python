@@ -5,8 +5,8 @@ print(id(d1))
 mani=(d1)
 print(mani)
 for x in d1:
-  print(x)
-'''
+  print(x)'''
+
 
 #keys and values
 '''d1={"apple":23.54,"kiwi":34,"sberry":100}
@@ -50,7 +50,7 @@ print(d1)
 d1={"praveen":"python","kiran":"java"}
 '''
 
-d1=dict()
+'''d1=dict()
 d1["mani"]=799
 d1["ball"]=525
 d1["cat"]=565656
@@ -62,7 +62,18 @@ d1.pop("kiran")
 print(d1)
 
 d1.popitem()
-print(d1)
+print(d1)'''
+
+
+
+my_dict = {'apple': 10, 'banana': 20, 'cherry': 30}
+
+# Access keys
+print(my_dict.keys())  # Output: dict_keys(['apple', 'banana', 'cherry'])
+
+# Iterating over keys
+for key in my_dict.keys():
+    print(key)
 
 
 
