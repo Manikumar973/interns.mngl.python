@@ -97,26 +97,108 @@ a("indica")'''
     print(f"rebal,{mani}")
 a("star")
 '''
+#variable length parameter of argument program
+'''def info(eno,ename,emsal,emdg,cnt="india"):
+    print("\t{}\t{}\t{}\t{}".format(eno,ename,emsal,emdg,cnt))
+#main programme
+print("\tempno\tempname\tsalary\temdg\tcountry")
+info(111,"kumar",7.2,"senior","india")
+info(112,"kumar",7.7,"tl","india")
+info(113,7.8,"junior","kalyan","india")
+info(114,"pavan",7522,"jr mutyam")
+#info(112,"king",6,2,"junior")
+info(115,"sc",emsal=8.8,emdg="king kumar")'''
 
 
 
 
+#varriable length perameter
+'''def a(eno,ename,esal,edg,cnt):
+    print("\t{}\t{}\t{}\t{}".format(eno,ename,esal,edg,cnt))
+
+#main programme
+print("\teno\tname,\tesal,\tedg,\tcountry")
+a(111,"rs",5.6,"senior","india",)
+a(112,"mani",855,"junior","pakistan")
+a(113,"kaleja",5.7,"jr","dubai")
+a(eno=114,ename="dhoni",esal=7500,edg="ceo",cnt="arab")'''
+
+'''def dispempinfo(eno,ename,sal,cnt="india"):
+    print("\t{}\t{}\t{}\t{}".format(eno,ename,sal,cnt))
+#main programme
+print("\tempno\tename\tsal\tcnt")'''
+
+
+'''def add_numbers(*args):
+    total = sum(args)
+    print(f"Total: {total}")
+
+add_numbers(10, 20, 30)    # Output: Total: 60
+add_numbers(5, 15)  '''       # Output: Total: 20
+
+
+'''def add_numbers(*numbers):
+    total = sum(numbers)
+    print("Total:", total)
+
+add_numbers(10, 20)           # Output: Total: 30
+add_numbers(5, 15, 25, 35)'''# Output: Total: 80
 
 
 
 
+'''def sum(a,b):
+    c=a+b
+    return c
+sum(10,20)
+print("sum={}".format(sum))
+'''
+
+#method 1
+
+'''def a(a,b,c):
+    d=a+b+c
+    return d
+res=a(20,30,40)
+print(res)'''
 
 
+#method 2
+'''def a():
+    a=int(input("enter a no:"))
+    b = int(input("enter a no:"))
+    c = int(input("enter a no:"))
+    d = int(input("enter a no:"))
+    e=a+b+c+d
+    print(e)
 
+a()
+'''
+#method 1 and 2
 
+'''def a(a,b,c):
+    d=a+b+c
+    return(d)
+res=a(10,20,30)
+print(res)'''
 
+'''def a():
+    a=int(input("enter a  value:"))
+    b = int(input("enter a  value:"))
+    c = int(input("enter a  value:"))
+    d=a+b+c
+    print(d)
+a()'''
 
+#method 3
 
-
-
-
-
-
+'''def a():
+    a=float(input("enter a value:"))
+    b = float(input("enter a value:"))
+    c = float(input("enter a value:"))
+    d=a+b+c
+    print(d)
+a()'''
 
 
 
