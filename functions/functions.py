@@ -201,9 +201,23 @@ a()'''
 a()'''
 
 
+#variable length parameter of arguments programs
+'''
+def mani(eno,ename,sal,dsg,cnt='india'):
+    print("\t{}\t{}\t{}\t{}\t{}".format(eno,ename,sal,dsg,cnt))
 
+#main programme
+print("-"*50)
+print("\tempno\tname\tsal\tdsg\tcountry")
+print("-"*50)
+mani(111,"ys",5.6,"tl")
+mani(112,"dr","tl",4.5)
+mani(113,"mr",8.7,412)
+mani(114,"hf","junior","senior")
+mani(115,"kr","senior","junior")
+mani(116,sal=3000,dsg="king",ename="hr",cnt="usa")
 
-
+print("-"*50)'''
 
 
 
