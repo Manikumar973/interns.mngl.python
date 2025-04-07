@@ -56,7 +56,7 @@ print("_____________________________THANKYOU FOR VISITING_______________________
 
 # HOTEL BIRAYANIES POINT:
 
-'''print("-"*50)
+print("-"*50)
 print("-------------WELCOME----------------------------")
 print("-"*50)
 
@@ -115,10 +115,10 @@ print("THE TOTAL BILL AMOUNT IS",sgst)
 print("-"*100)
 #print("\n")
 print(" ")
-print("--------thankyou___visit again--------")'''
+print("--------thankyou___visit again--------")
 
 
-#students marks list
+#students marks list'''
 '''rollno=int(input("please enter roll no:"))
 if rollno>=0:
     print("it is a correct hallticket number")
@@ -143,8 +143,8 @@ if s1<=35 or s2<=35 or s3<=35 or  s4<=35 or s5<=35 or s6<=35:
     #print(total)
     print("student are fail")
 else:
-    print("student are pass")'''
-
+    print("student are pass")
+'''
 
 
 

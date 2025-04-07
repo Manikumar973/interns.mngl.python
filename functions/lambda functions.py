@@ -99,6 +99,129 @@ a()'''
 
 
 
+#map function
+'''print("enter old saries of employe:")
+oldsal=[int(sal)for sal in input().split()]
+newsal=tuple(map(lambda esal :esal*1.1,oldsal))
+print("oldsalaries=",oldsal)
+print("new salaries=",newsal)'''
+
+
+#same example practice
+
+'''print("enter old salaries of employee:")
+oldsal=[int(sal)for sal in input().split()]
+newsal=tuple(map(lambda esal: esal*1.1,oldsal))
+print("old salaries=",oldsal)
+print("new salaries=",newsal)'''
+
+
+#original value and square value and sqrt value
+'''print("enter  list of value:")
+oldlist=[int(val)for val in input().split()]
+squarelist=list(map(lambda n:n**2,oldlist))
+sqrootlist=list(map(lambda k:k**0.5,oldlist))
+
+print("original value:{}".format(oldlist))
+print("square value:{}".format(squarelist))
+print("squareroot value:{}".format(sqrootlist))'''
+
+
+#maps sqrt
+'''v=int(input("enter a  no:"))
+def sqr(a):
+    return a*a
+
+#num=[1,2,3,4,5]
+sqrs=list(map(sqr,v))
+print(sqrs)
+'''
+
+
+'''def sqr(a):
+    return a*a
+num=[1,2,3,4,5]
+sqrt=list(map(sqr,num))
+print(sqrt)
+'''
+
+
+'''def a(s):
+    return s*s
+num=[1,2,3,4,5]
+sqrt=list(map(lambda x:x*x,num))
+print(sqrt)'''
+
+
+#in this function maps and filter used
+
+'''def sqr(a):
+    return(a*a)
+def fil(a):
+    return a<=3
+num=[1,2,33,4,5]
+sqrt=list(filter(fil,num))
+print(sqrt)'''
+
+
+
+
+'''def a(s):
+    return s*s
+num=[1,2,57,3,6]
+def fil(s):
+    return s<4
+sqrt=list(filter(fil,num))
+print(sqrt)'''
+
+#upper and lower
+
+'''a=["mani","kumar"]
+b=list(map(lambda x:x.upper(),a))
+print(b)'''
+
+'''k=["ndcnmkmsdn","jdhjjj"]
+d=list(map(lambda x:x.upper(),k))
+print(d)'''
+
+
+
+
+'''n=[1,2,3,4,5]
+s=list(map(lambda x:x**2,n))
+print(s)'''
+
+'''
+a=[1,2,3,5,6,7,7,8,8,6,5,5,4,4]
+b=list(map(lambda x:x**1.5,a))
+print(b)
+
+'''
+
+'''
+a=[1,2,3,3,4,5,6,8,8,5,84,5,6,7,8,555,7,5,444,6,885,335]
+e=list(filter(lambda x:x%2==0,a))
+print(e)'''
+
+
+
+
+#redeuce function
+'''
+import functools
+print("enter no of values seperated by spaces:")
+nums=[int(val)for val in input().split()]
+big=functools.reduce(lambda x,y:x if x>y else y,nums)
+print("----------------------------------")
+print("original elements={}".format(nums))
+print("biggest element={}".format(big))
+'''
+
+
+
+
+
+
 
 
 

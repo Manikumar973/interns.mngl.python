@@ -289,29 +289,56 @@ for a in range(1,100,2):
 '''for a in range(10,0,-1):
     print(a,end=",")'''
 
-
+'''
 for i in range(100,151,10):
     print(i)
 
+'''
 
 
+#practice problemms 5/04/2025
+
+'''import random
+print(random.randint(1000,9999))'''
+
+'''import calendar  as c
+print(c.month(2021,11))
+'''
+
+'''
+import math
+print(math.sqrt(25))'''
 
 
+'''r=range(11)
+for v in r:
+    print(v,end=" ")'''
 
+'''a=range(100)
 
+for v in a:
+    print(v,end=" ")
+'''
+'''#function deffination
+def a():
+    r = range(11)
+    for v in r:
+        print(v, end=" ")
+#main functon
+a()
+'''
 
+def mani():
+    n=float(input("enter  a  value:"))
 
-
-
-
-
-
-
-
-
-
-
-
+    if n>=0:
+        print("positive no")
+    elif n<=0:
+        print("negative no")
+    else:
+        print('programme is close')
+#main programme
+mani()
 
 
 

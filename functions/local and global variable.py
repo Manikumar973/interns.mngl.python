@@ -347,6 +347,7 @@ print("val of 'a' before update2()={}".format(a))'''
 
 
 
+#new  another examples in in local and global variables
 
 
 

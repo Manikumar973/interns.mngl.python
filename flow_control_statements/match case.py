@@ -17,7 +17,7 @@ print("end of programme")'''
 
 
 
-class_type = input("Enter class type (diamond, gold, silver): ")  # Proper input format
+'''class_type = input("Enter class type (diamond, gold, silver): ")  # Proper input format
 
 match class_type:
     case "diamond":
@@ -32,7 +32,7 @@ match class_type:
     case _:
         print("User has entered an incorrect one")
 
-print("End of program")
+print("End of program")'''
 
 
 
